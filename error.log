@@ -1,0 +1,222 @@
+2020-12-19 DEBUG [http-apr-8080-exec-7] (RequestAddCookies.java:123) - CookieSpec selected: default
+2020-12-19 DEBUG [http-apr-8080-exec-7] (RequestAuthCache.java:77) - Auth cache not set in the context
+2020-12-19 DEBUG [http-apr-8080-exec-7] (PoolingHttpClientConnectionManager.java:265) - Connection request: [route: {s}->https://accounts.google.com:443][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 200]
+2020-12-19 DEBUG [http-apr-8080-exec-7] (PoolingHttpClientConnectionManager.java:309) - Connection leased: [id: 0][route: {s}->https://accounts.google.com:443][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 200]
+2020-12-19 DEBUG [http-apr-8080-exec-7] (MainClientExec.java:235) - Opening connection {s}->https://accounts.google.com:443
+2020-12-19 DEBUG [http-apr-8080-exec-7] (DefaultHttpClientConnectionOperator.java:139) - Connecting to accounts.google.com/216.58.200.13:443
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:337) - Connecting socket to accounts.google.com/216.58.200.13:443 with timeout 0
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:390) - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:391) - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:395) - Starting handshake
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:425) - Secure session established
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:426) -  negotiated protocol: TLSv1.2
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:427) -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:435) -  peer principal: CN=accounts.google.com, O=Google LLC, L=Mountain View, ST=California, C=US
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:444) -  peer alternative names: [accounts.google.com, *.partner.android.com]
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:448) -  issuer principal: CN=GTS CA 1O1, O=Google Trust Services, C=US
+2020-12-19 DEBUG [http-apr-8080-exec-7] (DefaultHttpClientConnectionOperator.java:146) - Connection established 192.168.0.109:54447<->216.58.200.13:443
+2020-12-19 DEBUG [http-apr-8080-exec-7] (MainClientExec.java:256) - Executing request POST /o/oauth2/token HTTP/1.1
+2020-12-19 DEBUG [http-apr-8080-exec-7] (MainClientExec.java:261) - Target auth state: UNCHALLENGED
+2020-12-19 DEBUG [http-apr-8080-exec-7] (MainClientExec.java:267) - Proxy auth state: UNCHALLENGED
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:133) - http-outgoing-0 >> POST /o/oauth2/token HTTP/1.1
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Content-Length: 309
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Host: accounts.google.com
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Connection: Keep-Alive
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 >> "POST /o/oauth2/token HTTP/1.1[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 >> "Content-Length: 309[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 >> "Host: accounts.google.com[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 >> "[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:87) - http-outgoing-0 >> "client_id=842833716476-r721bf5fb1jvqgru52ljh8o8oivn34j1.apps.googleusercontent.com&client_secret=Xsg3AVcXWCNkduGXtfXljAaw&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2FSE140202-J3LP0003%2FloginGoogle&code=4%2F0AY0e-g73zMAbfeZpVRXsgEC4i6jVlP2QRK6ItjHLWQuNtr5kRfrJbWgsI40inXYNt1Q1kA&grant_type=authorization_code"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "Date: Sat, 19 Dec 2020 16:28:54 GMT[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "Expires: Mon, 01 Jan 1990 00:00:00 GMT[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "Vary: Origin[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "Vary: X-Origin[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "Vary: Referer[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "Server: scaffolding on HTTPServer2[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "X-XSS-Protection: 0[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0x1f][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0x8b][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0x8][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0x0][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0x0][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0x0][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0x0][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0x0][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0x2][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0xff][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0xbd][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "Q[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0xcb][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "0036b[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0x92][0xb2]8[0x14][0xde][0xff]O[0xd1][0xd5][0xeb][0xd1][0x86][0x0][0xda][0xfc];[0x10]Qh[0x12]D[0xb9][0x8][0x1b][0xb]B[0x84]pW[0x90][0xdb][0xd4][0xbc][0xfb]hw[0xd5][0xcc]<[0xc1][0xac]Ru[0xce][0xc9]w[0xfd][0xf3][0xd7][0xdb][0xdb]{[0x88]1i[0xdb]KW[0xe7][0xa4]z[0xff][0xfd][0xf6]>[0x85]@\[0x86][0x8c]t[0xdd][0xaf]NP[0x96]n#w[0x93][0xdc]n[0xb0][0xf1][0xda]Z7[0xe7]S[0x83][0x99]B[0xf1][0xd0][0xd8][0x96][0xf6][0x83]v[0xc0]{[0xc]b[0x86][0x99];4$][0xac][0xf9][0xa6]=l[0x17][0x9a][0xbd][0xb1][0x2][0xb7]?[0x1b][0x10]D[0x97][0xed]f[0xb1]}[0xc8][0xb7]6[0xe1][0xb9]n1^[0x5]-[0xae][0xa5][0x9b][0xb4][0xee][0xb1]x[0xd0]7[0xa3][0x90][0xaf]kjv[0xa7][0x12][0x14][0xe8]*[0xe9][0x5]`s[0xe1][0xda][0xae]wgc[0x1]B5r9[0x86]2[0x8b][0xd3]mEvlV[0x85][0xf3]u/[0xc3][0xf8][0xd3]l[0xef][0x1b][0xa7]F[0xb7][0xfa]pa[0x9c][0x16][0xf3][0xef][0xbc]|[0x90][0xb1][0xa1]w[0xd2]^[0xe8][0xcb][0x5]'[0x88][0xe2][0xf7][0xb4][0xc5]uC^[0xb6][0xd2][0xae]k[0xda][0xdf][0x1f][0x1f][0xc3]0,[0x93][0xba]N[\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0x12]6[0xb4]][0xe2][0xba][0xfc][0x8][0x1f]][0xfa][0xf1]h[0xc9][0x9d]V[0xd7]zI[0xca][0x90][0x16]o[0xcf]_[0x15][0x8d][0x90][0xbf][0xa3][0xb9]t[0xd3][0xf][0x90]L[0xc2];[0xb9][0xff]lh[0xfc]ond[0xd2][0xd3]h[0x87][0xa9]I[0xf5][0x93]3k,[0xa2]Z[0xab][0x95]][0x13]l[0xb4][0x95]V:[0xa3]i[0xc7]4[0xc8][0xf4][0xc2]T[0x9e][0xaf][0xb2][0x15][0xa0][0xe2][0xb0]hvK[0xd3][0xd3]@`[0xbb][0x85][0x9f]Y[0x13]*[0xdd][0xdc][0xb7][0xdd][0x1c][0xd9][0x98][0x9]lH[0x8d][0x8d][0xce][0x90][0xb3][0xf4][0xc2][0xfc]rY[0x8b]^[0xad][0xe5][0x93][0xa6][0xc1][0x1c]|[0x8d]R[0x1f][0xa0]>[0xf6][0x4][0x6]OB[0x15][0x1][0xb1][0x8a]v[0xce][0xc3][0x7]b[0xa7][0xd1][0x81][0xfa][0xe7]f[0xd0][0xb2]g[0xb8][0x8a]5[0x99][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:87) - http-outgoing-0 << "[0x9c][0xd1][0xbc][0x5]H[0xc1][0xc0]8k[0x1c][0xcc][0xd4][0xa7][0x14][0xb7][0xf4]3[0xf5][0x16]Wj[0x85]+[0x87][0x85][0xe5]x[0xb][0x95][0xb4]7wb[0x13][0x97][0xfc][0x8c]v[0xf5]h[0x94][0xea][0x80][0xf7][0xf0][0x11][0x0][0xb1][0xf][0xc0]X[0xc4]gT[0xe0][0x12][0xf5]Qu,[0xa2][0xca][0xfa][0xf][0x97][0x9b][0xff]_\[0x98]s[0xe9][0x8b][0xb][0xda]O[0x8e]9[0x99]a[0x86]g8C[0x6][0xda]pDs>"e;[0xbe][0xee][0x2][0x8f]MCox[0xe5][0xc4]D`d[0x83]2[0x10][0x90][0x2][0xa7]g[0xbc]R[0x0][0xbe]w[0xff]`[0xfe][0xdc][0x8e][0xd7][0xb8]t[0xa7][0xd0][0xb][0x9a][0xc0][0xb3][0xa8]Y[0x1d][0xa7][0xd8]s[0x9e][0x15][0xaa][0xcc][0x19][0xa4])[0x6][0xc9][0xb][0xcb][0xb4][0xed][0xd4][0x87][0xae][0xbc][0x83][0x8e][0x90][0xc7][0xe7][0x86][0x89]m[0xdd][0xc4][[0x17]Fn [0xbf][0xb0]BOe[0x9e][0xfa]F[0x94]I<[0x9c]s[0xf6][0xa5][0xed]YcA[0xf6][0xcf]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:122) - http-outgoing-0 << HTTP/1.1 200 OK
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Date: Sat, 19 Dec 2020 16:28:54 GMT
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Expires: Mon, 01 Jan 1990 00:00:00 GMT
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Pragma: no-cache
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Vary: Origin
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Vary: X-Origin
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Vary: Referer
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Content-Encoding: gzip
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Server: scaffolding on HTTPServer2
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-XSS-Protection: 0
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Frame-Options: SAMEORIGIN
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << X-Content-Type-Options: nosniff
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-0 << Transfer-Encoding: chunked
+2020-12-19 DEBUG [http-apr-8080-exec-7] (MainClientExec.java:285) - Connection can be kept alive indefinitely
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0x1a][0xb3]-[0x80]J2[0x9b]v"[0xc0][0xf9](.]@&[\r][0x1e][0x17]f[0x8d][0x1f]w[0xd6]<[0xbb]}r[0x9f]mjTj[0xe9]:H[0xe],.[0x16][0xc1][0xea]s}[0xd2][0xa3][0xc0]S[0x3]N[0xa7]|[0x9b][0xf1]{yG[0x80][0xee][0x9c][0xd8][0xd3][0xce][0xa7][0x6]i[0xfa]M[0x9a]%_[0x84][0xa4][0x15]Z3b[0xe9][0xf]\[0xb3][0x13]r[0xfb]2[0xb9][0xa8][0xe7][0xb8]&9[0xe8][0xb0]Fqr8.,G[0xdd][0xf7][0xde]|2[0xaf][0xa1][0xd5][0xbb]l[0xad][0xb][0xb9]<[0xdf]V[0xb0]E[0xad]z=[0xdc][0xaa]K*m[0xda]D[0xc7][0x96][0xcb][0xad][0x1d][0xc2]g[0xe]/[0x85][0xf1][0x99][0xf4][0xf3]p[0x19]H[0xb2][0xc8]9[0xe1]ke[0xea][0xeb][0x8a][0xb8][0x84]FI[0xc0]R[0x95][0xef]QX[0x13]_[0xda][0xd4][0x96][0xc3]g[0x1b][0xbf][0xb0][0x1b]Q[[0xeb][0xbc][0x82],S[0xd4]2[0xcd]r[0xf7][0x6]X[0xe4]2[0x80][0xc3][0xd7][0xc][0xec][0xd5][0xe3][0x8][0xe4][0xd8][0x1d]`<[0x15][0xf][0xed][0x14][0xd6]{[0x9]|FD[0xbc][0xaf][0xd8]v[0xef][0xdb][0xf0][0x82][0xc0]W[0xff]0[0xd2][0xd1]G:[0x13][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[0xc2][0xc4][0xca][0x85]zc[0x94][0xa9],[0xe]4[0x17][0x92][0x99]\jm[0xd1][0x87]4[0xb4][0xd4][0xbb]1[0x9b][0xc6](f[0xf9]4[0x19]r[0x9b][0x9c]j[0xac][0xb6][0x1b]2[0xbc][0xff][0xfa][0xeb]o[0x86]l[0x6][0xff][0xda][0x4][0x0][0x0][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "0[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-0 << "[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (PoolingHttpClientConnectionManager.java:341) - Connection [id: 0][route: {s}->https://accounts.google.com:443] can be kept alive indefinitely
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:88) - http-outgoing-0: set socket timeout to 0
+2020-12-19 DEBUG [http-apr-8080-exec-7] (PoolingHttpClientConnectionManager.java:348) - Connection released: [id: 0][route: {s}->https://accounts.google.com:443][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 200]
+2020-12-19 DEBUG [http-apr-8080-exec-7] (RequestAddCookies.java:123) - CookieSpec selected: default
+2020-12-19 DEBUG [http-apr-8080-exec-7] (RequestAuthCache.java:77) - Auth cache not set in the context
+2020-12-19 DEBUG [http-apr-8080-exec-7] (PoolingHttpClientConnectionManager.java:265) - Connection request: [route: {s}->https://www.googleapis.com:443][total kept alive: 1; route allocated: 0 of 100; total allocated: 1 of 200]
+2020-12-19 DEBUG [http-apr-8080-exec-7] (PoolingHttpClientConnectionManager.java:309) - Connection leased: [id: 1][route: {s}->https://www.googleapis.com:443][total kept alive: 1; route allocated: 1 of 100; total allocated: 2 of 200]
+2020-12-19 DEBUG [http-apr-8080-exec-7] (MainClientExec.java:235) - Opening connection {s}->https://www.googleapis.com:443
+2020-12-19 DEBUG [http-apr-8080-exec-7] (DefaultHttpClientConnectionOperator.java:139) - Connecting to www.googleapis.com/172.217.161.170:443
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:337) - Connecting socket to www.googleapis.com/172.217.161.170:443 with timeout 0
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:390) - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:391) - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:395) - Starting handshake
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:425) - Secure session established
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:426) -  negotiated protocol: TLSv1.2
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:427) -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:435) -  peer principal: CN=upload.video.google.com, O=Google LLC, L=Mountain View, ST=California, C=US
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:444) -  peer alternative names: [upload.video.google.com, *.clients.google.com, *.docs.google.com, *.drive.google.com, *.gdata.youtube.com, *.googleapis.com, *.photos.google.com, *.upload.google.com, *.upload.youtube.com, *.youtube-3rd-party.com, upload.google.com, upload.youtube.com, uploads.stage.gdata.youtube.com]
+2020-12-19 DEBUG [http-apr-8080-exec-7] (SSLConnectionSocketFactory.java:448) -  issuer principal: CN=GTS CA 1O1, O=Google Trust Services, C=US
+2020-12-19 DEBUG [http-apr-8080-exec-7] (DefaultHttpClientConnectionOperator.java:146) - Connection established 192.168.0.109:54448<->172.217.161.170:443
+2020-12-19 DEBUG [http-apr-8080-exec-7] (MainClientExec.java:256) - Executing request GET /oauth2/v1/userinfo?access_token=ya29.a0AfH6SMBAqx3qAVtwTc7Q7pXSpc0lDWNxsmTuit2Wuw9jc0rMLAJ9o4psPE-ITCQZVvXLM2b_EC-EuBqsg43t-xf5IdoAqA7vc9PJCx5k7oiOtSm2lNfAJl21k5fs7GXL-2aFbV30i0-Sq6eG1jnazfHBMd8OsrCUoNqoP_0Usc4 HTTP/1.1
+2020-12-19 DEBUG [http-apr-8080-exec-7] (MainClientExec.java:261) - Target auth state: UNCHALLENGED
+2020-12-19 DEBUG [http-apr-8080-exec-7] (MainClientExec.java:267) - Proxy auth state: UNCHALLENGED
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:133) - http-outgoing-1 >> GET /oauth2/v1/userinfo?access_token=ya29.a0AfH6SMBAqx3qAVtwTc7Q7pXSpc0lDWNxsmTuit2Wuw9jc0rMLAJ9o4psPE-ITCQZVvXLM2b_EC-EuBqsg43t-xf5IdoAqA7vc9PJCx5k7oiOtSm2lNfAJl21k5fs7GXL-2aFbV30i0-Sq6eG1jnazfHBMd8OsrCUoNqoP_0Usc4 HTTP/1.1
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-1 >> Host: www.googleapis.com
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-1 >> Connection: Keep-Alive
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:136) - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 >> "GET /oauth2/v1/userinfo?access_token=ya29.a0AfH6SMBAqx3qAVtwTc7Q7pXSpc0lDWNxsmTuit2Wuw9jc0rMLAJ9o4psPE-ITCQZVvXLM2b_EC-EuBqsg43t-xf5IdoAqA7vc9PJCx5k7oiOtSm2lNfAJl21k5fs7GXL-2aFbV30i0-Sq6eG1jnazfHBMd8OsrCUoNqoP_0Usc4 HTTP/1.1[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 >> "Host: www.googleapis.com[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 >> "[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "Pragma: no-cache[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "Expires: Mon, 01 Jan 1990 00:00:00 GMT[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "Date: Sat, 19 Dec 2020 16:28:54 GMT[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "Vary: Origin[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "Vary: X-Origin[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "Vary: Referer[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "Content-Encoding: gzip[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "Server: ESF[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "X-XSS-Protection: 0[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0x1f][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0x8b][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0x8][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0x0][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0x0][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0x0][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0x0][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0x0][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0x2][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0xff][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "M[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0x8c][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "A[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0xb][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0x82][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "0[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0x18][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0x86][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "00000001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0xef][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "001[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0xfe][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "a1[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[0xd9][0xb9][0x1c]s[0x96][0xe5])[0xf]bu[0x8][0x82]N]B[0xe6][0xdc][0x16][0xea]7[0xf4][[0x12][0xd1][0x8f][0x15]E[0xef][0xe9][0xe5]}[0x1f][0x9e]G[0x10][0x86][0xc4][0xd4]$[0xb][0x9]c[0xcb]t[0xc5][0xe3][0x94]s[0x9e]0[0xce][0xd2]5K[0x18]#3[0xf][0xc8][0xae]2[0xad]g[0x10]Z[0xd7]4[0xf7][0x84][0xc7][0xd5]b[0xa3][0xfc][0x1a][0x9][0xe8]>[0xd0]M[0xe][0xa6]1[0xb2][0xbe]|i[0x1c][0x9c]|?[0xd6][0x8]t[0x83][0xf4][0x2][0x8d]h[0xc7][0x8c][0xd2]V[0xf3]H[0x1][0xa8]V[0xba]Q[0xe][0x2]z[0x94]=z[0x17][0x9d][0x9f]Q[0x9f][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << ";U[0x2][0x8e]4[0xff]e[0xf7][0xd7]sz.[0xb6][0xe5][0xfe][0xa0]KP[0x13][0xb5][0x1a][0x10][0xa2][0xab]U$x[0x6]/[0xe8][0x15][0xff][0xf5][0xd0][0x0][0x0][0x0][\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:122) - http-outgoing-1 << HTTP/1.1 200 OK
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Pragma: no-cache
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Expires: Mon, 01 Jan 1990 00:00:00 GMT
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Date: Sat, 19 Dec 2020 16:28:54 GMT
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Content-Type: application/json; charset=UTF-8
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Vary: Origin
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Vary: X-Origin
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Vary: Referer
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Content-Encoding: gzip
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Server: ESF
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << X-XSS-Protection: 0
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << X-Frame-Options: SAMEORIGIN
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << X-Content-Type-Options: nosniff
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:125) - http-outgoing-1 << Transfer-Encoding: chunked
+2020-12-19 DEBUG [http-apr-8080-exec-7] (MainClientExec.java:285) - Connection can be kept alive indefinitely
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "0[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (Wire.java:73) - http-outgoing-1 << "[\r][\n]"
+2020-12-19 DEBUG [http-apr-8080-exec-7] (PoolingHttpClientConnectionManager.java:341) - Connection [id: 1][route: {s}->https://www.googleapis.com:443] can be kept alive indefinitely
+2020-12-19 DEBUG [http-apr-8080-exec-7] (LoggingManagedHttpClientConnection.java:88) - http-outgoing-1: set socket timeout to 0
+2020-12-19 DEBUG [http-apr-8080-exec-7] (PoolingHttpClientConnectionManager.java:348) - Connection released: [id: 1][route: {s}->https://www.googleapis.com:443][total kept alive: 2; route allocated: 1 of 100; total allocated: 2 of 200]
+2020-12-21 ERROR [http-apr-8080-exec-12] (FilterDispatcher.java:138) - java.lang.IllegalStateException: Cannot call sendRedirect() after the response has been committed

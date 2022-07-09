@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <h1>Log in to the Chop Chep Hotel Booking</h1>
+        <form id="captchaLogin" action="login" method="POST">
+            Email: <input type="text" name="txtUserID" value="" /> <br>
+            Password: <input type="password" name="txtPassword" value="" /> <br>
+            <div class="g-recaptcha" data-sitekey="6LeLRQsaAAAAAMQRgfgazIO7kpxL5VjlXEMNo2pf"></div>
+            <br/>
+            <input type="button" onclick="checkCaptcha()" value="Login">
+        </form>
+        <script>
+            function checkCaptcha() {
+                if (!grecaptcha.getResponse()) {
+                    alert("You need to prove that you're not a robot");
+                } else {
+                    document.getElementById('captchaLogin').submit();
+                }
+            }
+        </script>
+
+        <a href="https://accounts.google.com/o/oauth2/auth?scope=email&redirect_uri=http://localhost:8080/SE140202-J3LP0003/loginGoogle&response_type=code
+           &client_id=842833716476-r721bf5fb1jvqgru52ljh8o8oivn34j1.apps.googleusercontent.com&approval_prompt=force">Login With Google</a>   <br>
+        Click <a href="signupPage">here</a> to sign up your own account<br>
+        <a href="">Back to the hotel's page</a> <br>
+    </body>
+</html>
